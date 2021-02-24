@@ -1,4 +1,4 @@
-### `Burger App with React and Redux`
+### `Burger App with React`
 
 
 ### `npm start`
