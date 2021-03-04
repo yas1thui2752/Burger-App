@@ -131,7 +131,7 @@ class ContactData extends Component {
                 //navigating to home page after clicking order now button
                 this.props.history.push('/');
 
-                //console.log('post then res', orderData);
+                console.log('post then res', orderData);
             })
             .catch(error => {
                 this.setState({ spinning: false });

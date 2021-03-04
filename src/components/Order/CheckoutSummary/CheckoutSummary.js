@@ -9,7 +9,8 @@ const checkoutSummary = ( props )=> {
     return(
         <div className={classes.CheckoutSummary}>
             <h1>Enjoy It..!!</h1>
-            <h3>Total price: ${props.price}</h3>
+            {/* using substring fn to display price as 6.80, since props - price is comming as string */}
+            <h3>Burger Price: ${props.price.substring(0,4)}</h3>
             
             <div style={{width:'100%', margin:'auto'}}>
                 <Burger ingredients={props.ingredients} />
